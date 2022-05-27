@@ -44,7 +44,7 @@ namespace MovieApi.Api.Controllers
 
             var movie = await _movieRepository.CreateAsync(newMovie);
             return Ok(movie);
-
+            
         }
 
         [HttpPut]
